@@ -14,7 +14,6 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Arimo']
-
       }
     }
   }

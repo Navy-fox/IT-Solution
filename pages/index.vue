@@ -1,11 +1,13 @@
 <template>
-  <div class="h-screen">
+  <div class="">
+    <Header/>
     <Footer/>
   </div>
 
 </template>
 
 <script>
+import '@/assets/style.scss'
 export default {
   name: 'IndexPage',
 }

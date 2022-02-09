@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class=" bg-accent rounded-bl-xl w-screen fixed  flex flex-col gap-2 py-3.5 pl-10 lg:pl-20">
+  <div class="fixed top-0 left-0 z-10">
+    <div class=" bg-accent rounded-bl-xl w-screen mb-auto fixed flex flex-col gap-2 py-3.5 pl-10 lg:pl-20">
       <a href="tel:+372 43675 476" class="link">
         <img src="@/assets/icon/phone-white.svg" alt="">
         +372 43675 476
@@ -18,7 +18,7 @@
           <img src="@/assets/icon/vk.svg" alt="">
         </div>
       </div>
-      <nav class="flex col-start-1 col-end-4 place-content-end gap-2.5 lg:gap-6">
+      <nav class="flex col-start-1 col-end-4 place-content-end justify-end gap-2.5 lg:gap-6">
         <nuxt-link to="" class="nav-link">главная</nuxt-link>
         <nuxt-link to="" class="nav-link">о нас</nuxt-link>
         <nuxt-link to="" class="nav-link">отправьте нам сообщение</nuxt-link>
@@ -43,6 +43,17 @@ export default {
   @apply text-white text-sm font-bold  flex gap-4
 }
 .nav-link {
-  @apply text-white text-xs font-bold uppercase
+  @apply text-white text-xs font-bold uppercase justify-self-end relative;
+  &.nuxt-link-active {
+    &:before{
+      content: '';
+      width: 100%;
+      height: 4px;
+      background: #9CC634;
+      position: absolute;
+      border-radius: 5px;
+      bottom: -15px;
+    }
+  }
 }
 </style>

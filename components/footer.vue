@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col mt-auto fixed bottom-0 w-screen">
+  <div class="flex flex-col mt-auto fixed bottom-0 w-screen z-10">
     <div class="h-full py-9 px-20 bg-primary flex flex-col gap-5 md:grid md:grid-cols-4 md:gap-10 justify-items-center">
       <p class="text-5xl text-white uppercase self-center">logo</p>
       <div class="footer-group">
@@ -38,14 +38,13 @@ export default {
 
 <style lang="scss">
 .footer-group {
-  @apply flex flex-col gap-2
-}
+  @apply flex flex-col gap-2;
+  &__title {
+    @apply text-white font-bold leading-4 text-sm self-center md:self-start
+  }
 
-.footer-group__title {
-  @apply text-white font-bold leading-4 text-sm self-center md:self-start
-}
-
-.footer-group__line {
-  @apply text-white font-normal leading-4 text-sm flex gap-1.5 place-content-center md:place-content-start
+  &__line {
+    @apply text-white font-normal leading-4 text-sm flex gap-1.5 place-content-center md:place-content-start
+  }
 }
 </style>

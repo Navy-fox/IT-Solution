@@ -1,6 +1,7 @@
 <template>
   <div class="">
     <Header/>
+    <Form/>
     <Footer/>
   </div>
 
@@ -8,8 +9,11 @@
 
 <script>
 import '@/assets/style.scss'
+import Form from "~/components/form/form";
+
 export default {
   name: 'IndexPage',
+  components: {Form},
 }
 </script>
 

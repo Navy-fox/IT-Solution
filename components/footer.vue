@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col mt-auto fixed bottom-0 w-screen z-10">
+  <div class="flex flex-col mt-auto z-10">
     <div class="h-full py-9 px-20 bg-primary flex flex-col gap-5 md:grid md:grid-cols-4 md:gap-10 justify-items-center">
       <p class="text-5xl text-white uppercase self-center">logo</p>
       <div class="footer-group">

@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed top-0 left-0 z-10">
+  <div class="fixed top-0 left-0 z-20">
     <div class=" bg-accent rounded-bl-xl w-screen mb-auto fixed flex flex-col gap-2 py-3.5 pl-10 lg:pl-20">
       <a href="tel:+372 43675 476" class="link">
         <img src="@/assets/icon/phone-white.svg" alt="">

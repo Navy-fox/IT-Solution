@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col gap-6 relative mt-36 mb-96 md:mb-80 mx-0">
+  <div class="flex flex-col gap-6 relative mx-0">
     <div class="form lg:w-3/5">
-      <h2 class="text-dark text-lg text-center">Данные автомобиля</h2>
+      <h3 class="text-dark text-lg text-center">Данные автомобиля</h3>
       <div class="car-data grid grid-cols-3 lg:grid-cols-4 gap-5">
         <FormItem label="Марка">
           <input v-model="form.carData.brand">
@@ -30,11 +30,11 @@
         <FormItem label="Желаемая цена">
           <input v-model="form.carData.price">
         </FormItem>
-        <button class="btn col-start-1 col-end-4">Добавить фото</button>
+        <button class="btn col-start-1 col-end-4 lg:col-start-2 lg:col-end-5">Добавить фото</button>
       </div>
     </div>
     <div class="form lg:w-1/2">
-      <h2 class="text-dark text-lg text-center">Другие данные</h2>
+      <h3 class="text-dark text-lg text-center">Другие данные</h3>
       <div class="other-data grid grid-cols-4 gap-5">
         <FormItem label="Имя" class="col-span-2">
           <input v-model="form.otherData.name">

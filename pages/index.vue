@@ -1,10 +1,14 @@
 <template>
-  <div class="">
+  <div>
     <Header/>
-    <Form/>
+    <div class="flex flex-col gap-10 mb-20 mt-36 md:mb-32">
+      <Form/>
+      <Main/>
+      <About/>
+      <Company/>
+    </div>
     <Footer/>
   </div>
-
 </template>
 
 <script>

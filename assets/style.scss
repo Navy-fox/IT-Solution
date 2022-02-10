@@ -11,3 +11,22 @@ textarea {
 .btn {
   @apply text-white font-bold py-1.5 w-full bg-accent rounded-md
 }
+
+.title {
+  @apply relative text-dark text-2xl font-bold uppercase;
+  &:before {
+    content: '';
+    height: 0.2rem;
+    width: 5rem;
+    background: #9CC634;
+
+    position: absolute;
+    bottom: 0;
+  }
+}
+.list-item {
+  @apply flex flex-col gap-3 text-center items-center justify-end
+}
+.list {
+  @apply text-dark font-bold z-10
+}

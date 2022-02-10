@@ -10,11 +10,13 @@ module.exports = {
         current: 'currentColor',
         primary: '#0D2444',
         accent: '#9CC634',
-        dark: '#020D1A'
+        dark: '#020D1A',
+        lightgreen: '#BFD093'
       },
       fontFamily: {
         sans: ['Arimo']
-      }
+      },
+      border: {}
     }
   }
 }

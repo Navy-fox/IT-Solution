@@ -67,7 +67,7 @@
             </p>
           </swiper-slide>
           <swiper-slide class="swiper-slide">
-            <img src="@/assets/icon/clock.svg" alt="">
+            <img src="@/assets/icon/coin.svg" alt="">
             <h5 class="text-lg font-bold">Прибыльно</h5>
             <p class="text-xs w-48">
               Разумеется вы хотели бы продать свою

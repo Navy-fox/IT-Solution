@@ -51,7 +51,8 @@ export default {
   build: {},
 
   target: 'static',
-  router: {
-    base: '/IT-Solution/'
-  }
+  ssr: false,
+  server: {
+    host: "0.0.0.0",
+  },
 }

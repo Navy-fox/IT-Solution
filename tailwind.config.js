@@ -11,7 +11,8 @@ module.exports = {
         primary: '#0D2444',
         accent: '#9CC634',
         dark: '#020D1A',
-        lightgreen: '#BFD093'
+        lightgreen: '#BFD093',
+        g:'#CCCCCC'
       },
       fontFamily: {
         sans: ['Arimo']

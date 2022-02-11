@@ -81,12 +81,12 @@
         </div>
       </div>
       <nav class="hidden col-start-1 col-end-4 place-content-end justify-end gap-1.5 md:flex lg:gap-6">
-        <nuxt-link to="" class="nav-link">главная</nuxt-link>
-        <nuxt-link to="" class="nav-link">о нас</nuxt-link>
-        <nuxt-link to="" class="nav-link">отправьте нам сообщение</nuxt-link>
-        <nuxt-link to="" class="nav-link">чзв</nuxt-link>
-        <nuxt-link to="" class="nav-link">блог</nuxt-link>
-        <nuxt-link to="" class="nav-link">контакты</nuxt-link>
+        <nuxt-link to="/" class="nav-link">главная</nuxt-link>
+        <nuxt-link to="/1" class="nav-link">о нас</nuxt-link>
+        <nuxt-link to="/1" class="nav-link">отправьте нам сообщение</nuxt-link>
+        <nuxt-link to="/1" class="nav-link">чзв</nuxt-link>
+        <nuxt-link to="/1" class="nav-link">блог</nuxt-link>
+        <nuxt-link to="/1" class="nav-link">контакты</nuxt-link>
         <img src="@/assets/icon/lang-ru.svg" alt="">
       </nav>
     </div>

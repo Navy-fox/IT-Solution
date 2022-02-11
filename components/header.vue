@@ -99,7 +99,7 @@ export default {
   name: "Header",
   data() {
     return {
-      menuIsOpen: true
+      menuIsOpen: false
     }
   },
 }

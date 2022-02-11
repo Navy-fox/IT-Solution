@@ -25,6 +25,11 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
+  target: 'static',
+  router:{
+    base: '/IT-Solution/'
+  },
+
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
@@ -48,11 +53,5 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    // postcss: {
-    //   plugins: {
-    //     tailwindcss: {},
-    //     autoprefixer: {},
-    //   },
-    // },
   },
 }

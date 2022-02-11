@@ -1,16 +1,16 @@
 <template>
   <div class="relative">
     <img src="@/assets/image/bg-mine.png" alt="" class="absolute opacity-0 lg:opacity-100">
-    <div>
+    <div class="flex flex-col gap-6 lg:w-3/5 lg:ml-auto">
       <div class="flex flex-col gap-2 items-center ">
         <img src="@/assets/icon/logo.svg" alt="">
-        <p class="text-dark text-xs font-bold text-center">
+        <p class="text-dark text-xs font-bold text-center z-10">
           Желаешь продать машину быстро, но не хочешь заниматься этим самостоятельно? <br>
           Доверь нам все проблемы, связанные с продажей машины!
         </p>
       </div>
-      <div class="flex ">
-        <div class="slide">
+      <div class="hidden justify-center items-center md:flex">
+        <div class="slide rounded-bl-xl rounded-tl-xl border-lightgreen border border-r-0">
           <img src="@/assets/icon/clock.svg" alt="">
           <h5 class="text-lg font-bold">Быстро</h5>
           <p class="text-xs">
@@ -31,7 +31,7 @@
             задержек и вопросов.
           </p>
         </div>
-        <div class="slide">
+        <div class="slide rounded-br-xl rounded-tr-xl border-lightgreen border border-l-0">
           <img src="@/assets/icon/clock.svg" alt="">
           <h5 class="text-lg font-bold">Прибыльно</h5>
           <p class="text-xs">
@@ -42,6 +42,7 @@
           </p>
         </div>
       </div>
+      <div class="md:hidden"></div>
     </div>
   </div>
 </template>
@@ -55,12 +56,12 @@ export default {
 
 <style scoped lang="scss">
 .slide {
-@apply text-dark text-center
-  border-lightgreen border rounded-xl shadow
+  @apply text-dark text-center shadow
   flex flex-col gap-3
-  px-2 py-7 w-48 h-60 items-center justify-center;
+  px-2 py-7 w-48 h-60 items-center justify-center
+  z-10;
   &--select {
-    @apply py-10 h-72 border-accent
+    @apply py-10 h-72 border border-accent rounded-xl
   }
 }
 </style>
